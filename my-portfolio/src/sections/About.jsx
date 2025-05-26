@@ -16,6 +16,8 @@ import MongoIcon from "@/assets/icons/mongodb.svg";
 import ShadcnIcon from "@/assets/icons/shadcnui.svg";
 import ExpressIcon from "@/assets/icons/express.svg";
 import { TechIcon } from "@/components/TechnoIcon";
+import mapImage from '@/assets/images/map.png';
+import smileMemoji from '@/assets/images/memoji-smile.png';
 
 const toolboxItems = [
   {
@@ -68,6 +70,37 @@ const toolboxItems = [
   },
 ];
 
+ const hobbies = [
+    {
+        title: 'Music',
+        emoji: '🎧'
+    },
+        {
+        title: 'Gaming',
+        emoji: '🎮'
+    },
+        {
+        title: 'Travelling',
+        emoji: '🧳'
+    },
+        {
+        title: 'Reading',
+        emoji: '📚'
+    },
+        {
+        title: 'Cooking',
+        emoji: '🍴'
+    },
+        {
+        title: 'Fitness',
+        emoji: '🏋️'
+    },
+        {
+        title: 'Anime',
+        emoji: '🌀'
+    },
+ ]
+
 export const AboutSection = () => {
   return (
     <div className="pb-96">
@@ -102,6 +135,27 @@ export const AboutSection = () => {
               </div>
             ))}
           </div>
+        </Card>
+        <Card>
+                      <div>
+            <StarIcon />
+            <h3>Beyond the Code</h3>
+            <p>
+              Explore my interests and hobbies beyond the digital realm
+            </p>
+          </div>
+          <div>
+            {hobbies.map(hobby => (
+                <div key={hobby.title}>
+               <span>{hobby.title}</span>
+               <span>{hobby.emoji}</span>
+                </div>
+            ))}
+          </div>
+        </Card>
+        <Card>
+           <Image src={mapImage} alt="map" />
+           <Image src={smileMemoji} alt="smiling memoji" />
         </Card>
       </div>
     </div>
