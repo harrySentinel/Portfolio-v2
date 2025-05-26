@@ -7,14 +7,14 @@ import JavascriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CssIcon from "@/assets/icons/css3.svg";
 import ReactIcon from "@/assets/icons/react.svg";
-import NextIcon from "@/assets/icons/next-js.svg";
+import {NextIcon} from "@/assets/icons/NextIcon";
 import GithubIcon from "@/assets/icons/github.svg";
-import TailwindIcon from "@/assets/icons/tailwindcss.svg";
-import NodeIcon from "@/assets/icons/nodedotjs.svg";
-import DockerIcon from "@/assets/icons/docker.svg";
-import MongoIcon from "@/assets/icons/mongodb.svg";
-import ShadcnIcon from "@/assets/icons/shadcnui.svg";
-import ExpressIcon from "@/assets/icons/express.svg";
+import {TailwindIcon} from "@/assets/icons/TailwindIcon";
+import {NodeIcon} from "@/assets/icons/NodeIcon";
+import {DockerIcon} from "@/assets/icons/DockerIcon";
+import {MongoIcon} from "@/assets/icons/MongoIcon";
+import {ShadcnIcon} from "@/assets/icons/ShadcnIcon";
+import {ExpressIcon} from "@/assets/icons/ExpressIcon";
 import { TechIcon } from "@/components/TechnoIcon";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
@@ -112,7 +112,7 @@ export const AboutSection = () => {
           title="A Glimpse Into My World"
           description="Learn more about who I am, what I do, and what inspires me."
         />
-        <div className="mt-20">
+        <div className="mt-20 flex flex-col gap-8">
           <Card className="h-[320px]">
             <CardHeader
               title="My Reads"
@@ -129,7 +129,9 @@ export const AboutSection = () => {
               className="px-6 pt-6"
             />
           <ToolboxItems items={toolboxItems} className="mt-6" />
-          <ToolboxItems items={toolboxItems} className="mt-6" />
+          <ToolboxItems items={toolboxItems} className="mt-6"
+           itemsWrapperClassName="-translate-x-1/2"
+          />
           </Card>
           <Card>
             <CardHeader
