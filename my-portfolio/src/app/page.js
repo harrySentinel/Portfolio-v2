@@ -5,6 +5,7 @@ import { TapeSection } from "@/sections/Tape";
 import { TestimonialsSection } from "@/sections/Testimonials"
 import "./globals.css";
 import { AboutSection } from "@/sections/About";
+import { ContactSection } from "@/sections/Contact";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
      <TapeSection />
      <TestimonialsSection />
      <AboutSection />
+     <ContactSection />
     </div>
   );
 }
