@@ -14,11 +14,11 @@ const portfolioProjects = [
     year: "2025",
     title: "Ai Finance Manager",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "AI-powered expense tracking with real-time insights" },
+      { title: "Automated email alerts & monthly reports via Inngest" },
+      { title: "Gemini 1.5 receipt scanner and Arcjet-level security" },
     ],
-    link: "https://youtu.be/_CvliDAXSCg?si=z0XDYc4_U2LOlErs",
+    link: "https://ai-finance-platform-woad.vercel.app/",
     image: darkSaasLandingPage,
   },
   {
@@ -26,23 +26,23 @@ const portfolioProjects = [
     year: "2025",
     title: "Learning Managment System",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Real-time LMS with Stripe payments & access control" },
+      { title: "Interactive Q&A, reviews, and course/user analytics" },
+      { title: "Advanced admin dashboard for full course management" },
     ],
-    link: "https://youtu.be/_CvliDAXSCg?si=z0XDYc4_U2LOlErs",
+    link: "https://github.com/harrySentinel/LMS-Frontend",
     image: lightSaasLandingPage,
   },
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Nexshop",
+    year: "2025",
+    title: "Scalable E-commerce Store",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Stripe-powered payment system" },
+      { title: "Advanced admin panel for management" },
+      { title: "Fast performance with smooth UI" },
     ],
-    link: "https://youtu.be/_CvliDAXSCg?si=z0XDYc4_U2LOlErs",
+    link: "https://nexshop-frontend.vercel.app/",
     image: aiStartupLandingPage,
   },
 ];
@@ -88,7 +88,7 @@ export const ProjectsSection = () => {
               </a>
               </div>
               <div className="relative">
-              <Image src={project.image} alt={project.title} className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none" />
+              <Image src={project.image} alt={project.title} className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none rounded-2xl" />
               </div>
               </div>
             </Card>
