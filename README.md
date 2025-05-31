@@ -25,9 +25,7 @@ Deployment: Vercel
 📧 Contact form to connect easily
 
 🧠 What I Learned
-Advanced usage of Next.js features like dynamic routing, metadata, and API routes
-
-Creating aesthetic UIs using shadcn/ui and Tailwind CSS
+Creating aesthetic UIs using Tailwind CSS & Tailwind CSS nimation Utility
 
 Managing animation flows using Framer Motion
 
