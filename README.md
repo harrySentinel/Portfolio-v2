@@ -2,7 +2,7 @@
 Welcome to my personal portfolio website!
 This is a modern, fast, and fully responsive web app to showcase my journey, projects, and skills as a full-stack developer.
 
-🌐 Live Site: [link](portfolio-v2-eight-self.vercel.app)
+🌐 Live Site: portfolio-v2-eight-self.vercel.app
 
 🧰 Tech Stack
 Framework: Next.js
